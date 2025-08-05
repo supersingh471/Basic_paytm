@@ -1,13 +1,23 @@
+//backend->index.js 
 const express = require("express");
 const cors = require("cors");
 const mainRouter = require("./routes/index"); 
 
-app.use(cors());
-
 const app = express();
+
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/v1", mainRouter);
 
-app.listen(3000);
+app.get("/", (req, res) => {
+  res.send("Backend server is running!");
+});
 
+app.post("/ping", (req, res) => {
+  res.send("pong");
+});
+
+
+app.listen(3000);
+console.log("Listening on port 3000");

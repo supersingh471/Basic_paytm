@@ -1,3 +1,4 @@
+//backend->db.js
 const mongoose = require("mongoose");
 
 mongoose.connect("mongodb+srv://cohort2:supersingh471@cohort2.6d1abj6.mongodb.net/paytm");
@@ -10,7 +11,7 @@ const userSchema = new mongoose.Schema({
 });
 
 const accountSchema = new mongoose.Schema({
-	_id: {
+	userId: {
 		type: mongoose.Schema.Types.ObjectId,
 		ref: 'User',
 		required: true

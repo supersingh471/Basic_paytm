@@ -4,6 +4,7 @@
   "description": "",
   "main": "db.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/100xdevs-cohort-2/paytm/issues"
   },
-  "homepage": "https://github.com/100xdevs-cohort-2/paytm#readme"
+  "homepage": "https://github.com/100xdevs-cohort-2/paytm#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
