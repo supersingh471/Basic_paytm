@@ -1,4 +1,27 @@
 {
+<<<<<<< HEAD
+  "name": "paytm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100xdevs-cohort-2/paytm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100xdevs-cohort-2/paytm/issues"
+  },
+  "homepage": "https://github.com/100xdevs-cohort-2/paytm#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+=======
   "name": "paytm-project",
   "private": true,
   "version": "0.0.0",
@@ -13,18 +36,21 @@
     "@tailwindcss/vite": "^4.1.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.7.1",
-    "tailwindcss": "^4.1.11"
+    "react-router-dom": "^7.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.30.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "vite": "^7.0.4"
+>>>>>>> bfac149 (Updated App.jsx with components and pages with router)
   }
 }
